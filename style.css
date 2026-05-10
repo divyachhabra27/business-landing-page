@@ -1054,6 +1054,10 @@ header{
 
 @media(max-width:991px){
 
+  body{
+    overflow-x: hidden;
+  }
+
   .container{
     padding-left: 20px;
     padding-right: 20px;
@@ -1091,8 +1095,8 @@ header{
   }
 
   .hero-content h1{
-    font-size: 82px;
-    line-height: 82px;
+    font-size: 72px;
+    line-height: 74px;
     max-width: 100%;
   }
 
@@ -1103,10 +1107,34 @@ header{
   .hero-stats{
     justify-content: center;
     margin: 0 auto;
+
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .hero-image{
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
   }
 
   .hero-image img{
     max-width: 620px;
+  }
+
+  .card-1{
+    width: 340px;
+  }
+
+  .card-2{
+    width: 240px;
+
+    left: 40px;
+  }
+
+  .card-3{
+    width: 340px;
   }
 
   /* clients */
@@ -1138,7 +1166,7 @@ header{
     width: 100%;
     max-width: 360px;
     height: auto;
-    min-height: 340px;
+    min-height: 300px;
   }
 
   .feature-card h3{
@@ -1237,6 +1265,8 @@ header{
   .service-card{
     height: 150px;
     padding: 0 24px;
+
+    align-items: center;
   }
 
   .service-content{
@@ -1254,6 +1284,7 @@ header{
   .service-content p{
     margin-left: auto;
     margin-right: auto;
+
     font-size: 22px;
     line-height: 36px;
   }
@@ -1267,6 +1298,7 @@ header{
   .testimonial-wrapper{
     grid-template-columns: 1fr;
     gap: 60px;
+
     text-align: center;
   }
 
@@ -1287,6 +1319,7 @@ header{
   .testimonial-bottom{
     justify-content: center;
     flex-direction: column;
+
     gap: 24px;
   }
 
@@ -1294,9 +1327,26 @@ header{
 
   .footer-top{
     flex-direction: column;
+
     gap: 40px;
 
     padding: 60px 30px 30px;
+
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-heading{
+    max-width: 100%;
+
+    text-align: center;
+  }
+
+  .footer-subscribe{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
   }
 
   .footer-form{
@@ -1311,62 +1361,131 @@ header{
 
   .footer-content{
     flex-direction: column;
+
     gap: 50px;
 
     padding: 50px 30px;
+
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-left{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-contact a{
+    justify-content: center;
+  }
+
+  .copyright{
+    text-align: center;
   }
 
   .footer-links{
     gap: 60px;
+
     flex-wrap: wrap;
+
+    justify-content: center;
   }
 
-.footer-top{
-  align-items: center;
-  text-align: center;
+
+  /* tablet hero fix */
+
+@media (min-width:670px) and (max-width:750px){
+
+  .hero-section{
+    padding: 40px 0 20px;
+  }
+
+  .hero-content{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .hero-texts{
+    min-height: 0;
+  }
+
+  .hero-content h1{
+    font-size: 64px;
+    line-height: 66px;
+  }
+
+  .hero-content p{
+    max-width: 620px;
+
+    margin: 0 auto 40px;
+  }
+
+  /* stats */
+
+  .hero-stats{
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: nowrap;
+
+    gap: 34px;
+
+    margin: 0 auto;
+  }
+
+  .stat-box{
+    text-align: center;
+  }
+
+  .stat-top{
+    justify-content: center;
+  }
+
+  /* cards */
+
+  .hero-image{
+    position: relative;
+
+    height: 420px;
+
+    margin-top: 40px;
+  }
+
+  .card-1{
+    width: 350px;
+
+    top: 0;
+    right: 80px;
+  }
+
+  .card-2{
+    width: 250px;
+
+    top: 60px;
+    left: 90px;
+  }
+
+  .card-3{
+    width: 300px;
+
+    top: 210px;
+    right: 90px;
+  }
+
 }
-
-.footer-heading{
-  max-width: 100%;
-  text-align: center;
 }
-
-.footer-subscribe{
-  width: 100%;
-
-  display: flex;
-  justify-content: center;
-}
-
-.footer-content{
-  align-items: center;
-  text-align: center;
-}
-
-.footer-left{
-  width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-contact{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer-contact a{
-  justify-content: center;
-}
-
-.copyright{
-  text-align: center;
-}
-
-}
-
 
 /* mobile device screen */
 
