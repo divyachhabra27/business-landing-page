@@ -377,7 +377,7 @@ header{
 
 .features-content{
   padding-top: 40px;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .features-left h2{
@@ -464,8 +464,6 @@ header{
   font-size: 38px;
   font-weight: 600;
   margin-bottom: 16px;
-
-  min-height: 90px;
 }
 
 .feature-item p{
@@ -559,7 +557,7 @@ header{
 
 .service-section{
   background: #F2F6F8;
-  padding: 120px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -709,7 +707,7 @@ header{
 
 .testimonial-section{
   background: #F2F6F8;
-  padding: 120px 0;
+  padding: 60px 0;
 }
 
 .testimonial-wrapper{
@@ -1216,7 +1214,7 @@ header{
   /* articles */
 
   .articles-section{
-    padding: 80px 0;
+    padding: 40px 0;
   }
 
   .articles-left{
@@ -1400,6 +1398,7 @@ header{
     justify-content: center;
   }
 
+}
 
   /* tablet hero fix */
 
@@ -1484,7 +1483,6 @@ header{
     right: 90px;
   }
 
-}
 }
 
 /* mobile device screen */
@@ -1693,8 +1691,8 @@ header{
   /* features */
 
   .features-section{
-    padding-top: 130px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 30px;
   }
 
   .top-features{
@@ -1746,7 +1744,7 @@ header{
   }
 
   .feature-item{
-  padding: 30px 20px;
+  padding: 15px 20px;
 
   text-align: center;
 
@@ -1811,7 +1809,7 @@ header{
 /* service */
 
 .service-section{
-  padding: 40px 0 70px;
+  padding: 40px 0 0;
 }
 
 .service-section .container{
@@ -1833,7 +1831,7 @@ header{
 /* content */
 
 .service-content{
-  padding: 0 20px 30px;
+  padding: 0 20px;
 
   text-align: center;
 
@@ -2099,7 +2097,7 @@ header{
   .footer-accordion h5{
     color: #fff;
 
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
 
     margin: 0;
@@ -2121,9 +2119,10 @@ header{
 
     color: #d8d8d8;
 
-    font-size: 16px;
+    font-size: 18px;
 
     margin-bottom: 12px;
+    text-align: left;
   }
 
   /* mobile contact icons */

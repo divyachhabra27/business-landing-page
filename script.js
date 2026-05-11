@@ -117,7 +117,7 @@ const changingWord = document.querySelector("#changingWord");
 
 const words = [
   "Home the Best",
-  "Business"
+  "business"
 ];
 
 let wordIndex = 0;
